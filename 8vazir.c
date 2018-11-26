@@ -3,7 +3,7 @@
 #include <string.h>
 #include <ctype.h>
 #include <math.h>
-void vazir ( int a[], int col){
+/*void vazir ( int a[], int col){
 	int row,c, i, j;
 	if (col==8) {
 		for (i=0; i<8; i++){
@@ -31,10 +31,11 @@ void vazir ( int a[], int col){
 	}
 		
 	
-}
+}*/
 
 int main(){
 	int a[8]={0};
-	vazir (a,0);
+	//vazir (a,0);
+	printf ("%d", 2);
 	
 }
